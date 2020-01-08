@@ -2272,9 +2272,10 @@ ul {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #fff;
+    color: #00FFFF;
     margin-top: 0;
     margin-bottom: 25px;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 @media (min-width: 320px) {
@@ -2295,7 +2296,8 @@ ul {
 
 .hero__text {
     font-size: 20px;
-    color: #fff;
+    color: #00FFFF;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 @-webkit-keyframes bounce {

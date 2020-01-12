@@ -592,7 +592,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 2.1;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     color: #748182;
@@ -1681,7 +1681,8 @@ ul {
 
 .slide-image {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: -100px;
 }
 
 .slide-image .slide-item {
@@ -1759,7 +1760,7 @@ ul {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 0;
+    margin-top: -70px;
     margin-bottom: 0;
 }
 
@@ -2234,11 +2235,13 @@ ul {
 }
 
 .hero__wrapper #back-to-down {
+    
+    text-shadow: black 2px 2px 0.9px;
     display: inline-block;
     font-size: 40px;
     margin-top: 30px;
     line-height: 1;
-    color: #fff;
+    color: #00ffff;
     -webkit-animation: bounce 2s infinite;
             animation: bounce 2s infinite;
     cursor: pointer;
@@ -2272,10 +2275,11 @@ ul {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #00FFFF;
-    margin-top: 0;
-    margin-bottom: 25px;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-shadow: black 0.2em 0.2em 0.2em;
+    margin-left: 15%;
 }
 
 @media (min-width: 320px) {
@@ -2295,9 +2299,11 @@ ul {
 }
 
 .hero__text {
-    font-size: 20px;
-    color: #00FFFF;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 0px;
+    margin-left: 15%;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: black 0.2em 0.3em 0.2em;
 }
 
 @-webkit-keyframes bounce {

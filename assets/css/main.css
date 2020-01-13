@@ -1682,7 +1682,7 @@ ul {
 .slide-image {
     position: relative;
     margin-bottom: 20px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
 
 .slide-image .slide-item {
@@ -1760,7 +1760,7 @@ ul {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: -70px;
+    /* margin-top: -70px; */
     margin-bottom: 0;
 }
 

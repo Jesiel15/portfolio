@@ -376,7 +376,7 @@
 									<div class="form-item form-item--half">
 										<label class="form__label">email,<span>*</span>
 										</label>
-										<input class="form-control" type="text" name="input" placeholder=""/>
+										<input id="idEmail" class="form-control" type="text" name="input" placeholder=""/>
 									</div><!-- End / form-item -->
 									
 									
@@ -384,7 +384,7 @@
 									<div class="form-item form-item--half">
 										<label class="form__label">Name,<span>*</span>
 										</label>
-										<input class="form-control" type="text" name="input" placeholder=""/>
+										<input id="idNome" class="form-control" type="text" name="input" placeholder=""/>
 									</div><!-- End / form-item -->
 									
 									
@@ -392,13 +392,13 @@
 									<div class="form-item">
 										<label class="form__label">message<span>*</span>
 										</label>
-										<textarea class="form-control"></textarea>
+										<textarea id='idMensagem' class="form-control"></textarea>
 									</div><!-- End / form-item -->
 									
 									
 									<!-- form-item -->
 									<div class="form-item">
-										<a class="md-btn btn-custom" href="#">Send message
+										<a class="md-btn btn-custom" onclick="fazerRequisicao()">Send message
 										</a>
 									</div><!-- End / form-item -->
 									
@@ -464,5 +464,6 @@
 		<script type="text/javascript" src="assets/vendors/typed/typed.min.js"></script>
 		<!-- App-->
 		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script type="text/javascript" src="assets/js/send-email.js"></script>
 	</body>
 </html>

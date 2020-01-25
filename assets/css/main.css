@@ -267,7 +267,7 @@ a:focus {
 
 @media (min-width: 1200px) {
     .md-section {
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 150px;
     }
 }

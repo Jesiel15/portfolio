@@ -1682,6 +1682,10 @@ ul {
 .slide-image {
     position: relative;
     margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+    /* margin-top: -100px; */
+>>>>>>> ef59c357c4919f34bea365b5621ae2b785d6f870
 }
 
 .slide-image .slide-item {
@@ -1759,7 +1763,11 @@ ul {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
+<<<<<<< HEAD
   
+=======
+    /* margin-top: -70px; */
+>>>>>>> ef59c357c4919f34bea365b5621ae2b785d6f870
     margin-bottom: 0;
 }
 

@@ -267,7 +267,7 @@ a:focus {
 
 @media (min-width: 1200px) {
     .md-section {
-        padding-top: 150px;
+        padding-top: 50px;
         padding-bottom: 150px;
     }
 }
@@ -1682,7 +1682,6 @@ ul {
 .slide-image {
     position: relative;
     margin-bottom: 20px;
-    margin-top: -100px;
 }
 
 .slide-image .slide-item {
@@ -1760,7 +1759,7 @@ ul {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: -70px;
+  
     margin-bottom: 0;
 }
 
@@ -2218,6 +2217,7 @@ ul {
 
     .header__inner {
         padding-right: 0;
+      
     }
 }
 

@@ -7,7 +7,7 @@
 -->
 
 <head>
-	
+
 	<script src="https://kit.fontawesome.com/95d997e7a4.js" crossorigin="anonymous"></script>
 	<title>Jesiel Faria</title>
 
@@ -75,7 +75,6 @@
 
 		<!-- Content-->
 		<div class="md-content">
-
 			<!-- hero -->
 			<div class="hero" id="id-1" style="background-image: url('assets/img/bg/fundo.jpeg');">
 				<div class="hero__wrapper">
@@ -135,11 +134,11 @@
 
 							<p class="fz-16">Sou formado em Análise e Desenvolvimento de Sistema na Universidade
 								Católica de Brasília.</p>
-							
+				  	
 						</div>
 					</div>
 					
-						
+					 
 					<!-- swiper__module swiper-container -->
 					<div class="swiper__module swiper-container mt-50"
 						data-options='{"slidesPerView":3,"spaceBetween":30,"autoplay":2000,"breakpoints":{"640":{"slidesPerView":1},"991":{"slidesPerView":2}}}'>
@@ -157,7 +156,7 @@
 							<!-- service -->
 							<div class="service mb-0">
 								<div class="service__icon"><i class="fab fa-react"></i></div>
-								
+
 								<h3 class="service__title">React JS</h3>
 								<p class="service__text">Mauris lacinia venenatis dolor sit amet viverra. Integer
 									malesuada nulla neque.</p>
@@ -238,46 +237,72 @@
 										onclick="filterSelection('desenvolvimento')">Desenvolvimento</a></li>
 							</ul>
 
+							<!-- The Modal - Para abrir a modal -->
+							<div id="myModal" class="modal">
+
+								<!-- The Close Button -->
+								<span class="close">&times;</span>
+
+								<!-- Modal Content (The Image) -->
+								<img class="modal-content" id="img01">
+
+								<!-- Modal Caption (Image Text) -->
+								<div id="caption"></div>
+							</div>
+
 
 							<div class="container">
 								<div class="hoverzoom filterDiv web design">
-									<img src="assets/img/figura.png">
-									<div class="retina">
-										<p>1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+									<img class="myImg" src="assets/img/portfolio/4.jpg">
+									<div class="retina showModal">
+										<p>Jesiel 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
 											temporibus, repellat? Placeat nihil itaque culpa eu.</p>
-										<a href="#id-1">Saiba mais</a>
 									</div>
+									<!-- <a href="#id-1">Saiba mais</a> -->
 								</div>
 
 								<div class="hoverzoom filterDiv aplicativos">
-									<img src="assets/img/figura.png">
-									<div class="retina">
+									<img class="myImg" src="assets/img/portfolio/6.jpg">
+									<div class="retina showModal">
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
 											temporibus, repellat? Placeat nihil itaque culpa eu.</p>
-										<a href="#">Saiba mais</a>
 									</div>
 								</div>
 
-								<div class="hoverzoom filterDiv desenvolvimento">
-									<img src="assets/img/logo.jpg">
-									<div class="retina">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+								<div class="hoverzoom filterDiv aplicativos desenvolvimento">
+									<img class="myImg" src="assets/img/portfolio/7.jpg" alt="Jesiel 1 Lorem ipsum dolor sit amet">
+									<div class="retina showModal">
+										<p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
 											temporibus, repellat? Placeat nihil itaque culpa eu.</p>
-										<a href="">Saiba mais</a>
+									</div>
+								</div>
+								<div class="hoverzoom filterDiv aplicativos desenvolvimento">
+									<img class="myImg" src="assets/img/portfolio/9.jpg" alt="Jesiel 1 Lorem ipsum dolor sit amet">
+									<div class="retina showModal">
+										<p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+											temporibus, repellat? Placeat nihil itaque culpa eu.</p>
 									</div>
 								</div>
 
-								<div class="hoverzoom filterDiv test aplicativos">
-									<img src="assets/img/figura.png">
-									<div class="retina">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+								<div class="hoverzoom filterDiv aplicativos web design">
+									<img class="myImg" src="assets/img/portfolio/6.jpg">
+									<div class="retina showModal">
+										<p>7 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
 											temporibus, repellat? Placeat nihil itaque culpa eu.</p>
-										<a href="#">Saiba mais</a>
+									</div>
+								</div>
+
+								<div class="hoverzoom filterDiv aplicativos desenvolvimento">
+									<img class="myImg" src="assets/img/portfolio/9.jpg" alt="Jesiel 1 Lorem ipsum dolor sit amet">
+									<div class="retina showModal">
+										<p>5 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit,
+											temporibus, repellat? Placeat nihil itaque culpa eu.</p>
 									</div>
 								</div>
 
 							</div>
 						</div>
+
 						<!-- <div class="container">
 							<div class="grid__inner">
 								<div class="grid-sizer"></div>
@@ -285,6 +310,8 @@
 						</div> -->
 					</div>
 			</section>
+
+
 			<!-- End / Section -->
 			<!-- <section>
 				<div class="contato">
@@ -330,47 +357,53 @@
 
 							</div>
 						</div>
-						<div class="col-lg-7 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1 ">
 
-							<!-- title -->
-							<div class="title">
+
+						<!-- <div class="col-lg-7 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-1 "> -->
+
+						<!-- title -->
+						<!-- <div class="title">
 								<h2 class="title__title">Or drop a message</h2>
-							</div><!-- End / title -->
+							</div> -->
+						<!-- End / title -->
 
-							<div class="form-wrapper">
+						<!-- <div class="form-wrapper"> -->
 
-								<!-- form-item -->
-								<div class="form-item form-item--half">
+						<!-- form-item -->
+						<!-- <div class="form-item form-item--half">
 									<label class="form__label">email,<span>*</span>
 									</label>
 									<input class="form-control" type="text" name="input" placeholder="" />
-								</div><!-- End / form-item -->
+								</div> -->
+						<!-- End / form-item -->
 
 
-								<!-- form-item -->
-								<div class="form-item form-item--half">
+						<!-- form-item -->
+						<!-- <div class="form-item form-item--half">
 									<label class="form__label">Name,<span>*</span>
 									</label>
 									<input class="form-control" type="text" name="input" placeholder="" />
-								</div><!-- End / form-item -->
+								</div> -->
+						<!-- End / form-item -->
 
 
-								<!-- form-item -->
-								<div class="form-item">
+						<!-- form-item -->
+						<!-- <div class="form-item">
 									<label class="form__label">message<span>*</span>
 									</label>
 									<textarea class="form-control"></textarea>
-								</div><!-- End / form-item -->
+								</div> -->
+						<!-- End / form-item -->
 
 
-								<!-- form-item -->
-								<div class="form-item">
+						<!-- form-item -->
+						<!-- <div class="form-item">
 									<a class="md-btn btn-custom" href="#">Send message
 									</a>
-								</div><!-- End / form-item -->
-
-							</div>
-						</div>
+								</div> -->
+						<!-- End / form-item -->
+						<!-- </div>
+						</div> -->
 					</div>
 				</div>
 			</section>
@@ -411,6 +444,10 @@
 						<a class="social-icon" href="#"><i class="social-icon__icon fa fa-vimeo"></i>
 						</a><!-- End / social-icon -->
 
+						<!-- social-icon -->
+						<a class="social-icon" href="#"><i class="social-icon__icon fa fa-instagram"></i>
+						</a><!-- End / social-icon -->
+
 					</div>
 				</div>
 			</div>
@@ -432,10 +469,10 @@
 	<!-- App-->
 	<script type="text/javascript" src="assets/js/main.js"></script>
 
-	<!-- Para o filtro dos projetos feitos -->
+	<!-- Para o filtro dos projetos no portfolio -->
 	<script type="text/javascript" src="assets/js/filter.js"></script>
 
-
+	<script type="text/javascript" src="assets/js/imageModal.js"></script>
 
 </body>
 
